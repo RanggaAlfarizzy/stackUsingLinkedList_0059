@@ -26,4 +26,5 @@ public:
         top = NULL; // Initialize the stack with a null top
     }
 
-};
+    // Push operation: insert an element into the top of the stack
+    int push(int value)
