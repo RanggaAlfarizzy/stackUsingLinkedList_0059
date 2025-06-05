@@ -72,3 +72,12 @@ public:
         return top == NULL; // return true if the top pointer
     }
 };
+
+int main()
+{
+    Stack stack;
+
+    int choice = 0;
+    int value;
+
+}
