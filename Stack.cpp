@@ -36,4 +36,17 @@ public:
         cout << "Push value: " << value << endl;
         return value;
      }
-};
+   //pop operation: Remove the topmost element from the stack
+    void pop()
+    {
+        Node *temp = top;
+        if (isEmpty())
+        {
+            cout << "stack is empty." << endl;
+            return;
+        }
+        cout << "Popped value: " << temp->data << endl;
+        top = top->next; // Update top pointer to the node
+        delete temp;
+    }
+}
