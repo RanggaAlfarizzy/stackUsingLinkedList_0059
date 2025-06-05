@@ -16,3 +16,8 @@ public:
 
 //stack class
 class Stack
+{
+private:
+    Node *top; // pointer to the top node of the stack
+
+}
