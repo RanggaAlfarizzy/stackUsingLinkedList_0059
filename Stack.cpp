@@ -49,4 +49,22 @@ public:
         top = top->next; // Update top pointer to the node
         delete temp;
     }
+    //peek/top operation: Retrieve the value of the topmost
+    void peek()
+    {
+        if (isEmpty())
+        {
+            cout << "List is empty." << endl;
+        }
+        else
+        {
+            Node *current = top;
+            while (current != NULL)
+            {
+                cout << current->data << " " << endl;
+                current = current->next;
+            }
+        } // return the value of the top node
+    }
+
 }
