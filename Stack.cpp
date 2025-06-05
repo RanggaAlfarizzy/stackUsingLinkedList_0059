@@ -28,3 +28,7 @@ public:
 
     // Push operation: insert an element into the top of the stack
     int push(int value)
+     {
+        Node *newNode = new Node(); //1.Allocate memory for the new node
+     }
+};
