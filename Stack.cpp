@@ -67,4 +67,8 @@ public:
         } // return the value of the top node
     }
 
-}
+    bool isEmpty()
+    {
+        return top == NULL; // return true if the top pointer
+    }
+};
